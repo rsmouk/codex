@@ -1,3 +1,13 @@
+var dt = new Date();
+var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
+var xx3 = dt.getSeconds();
+
+var cat = $("#nokta").attr("data-id");
+
+
+
+
+
 $(function() {
     $.ajax({
 
